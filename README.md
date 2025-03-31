@@ -19,3 +19,10 @@ This is a natural language browser automation API using Flask and Playwright.
 ```bash
 pip install -r requirements.txt
 python flask_api.py
+```
+## To interact with the agent, run 
+``` powershell
+  Invoke-WebRequest -Uri "http://localhost:8000/interact" `
+ -Method POST `
+ -Headers @{ "Content-Type" = "application/json" } `
+ -Body '{ "command": "search for artificial intelligence on wikipedia" }'
