@@ -18,7 +18,7 @@ This is a natural language browser automation API using Flask and Playwright.
 
 ```bash
 pip install -r requirements.txt
-python flask_api.py
+python flask_api_1.py
 ```
 ## To interact with the agent, run 
 ``` powershell
