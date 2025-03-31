@@ -1,6 +1,6 @@
 # Crustdata-Build-Challenge
 
-# Crustdata Build Challenge – Milestone 1
+# Milestone 1
 
 ## Overview
 This is a natural language browser automation API using Flask and Playwright.
