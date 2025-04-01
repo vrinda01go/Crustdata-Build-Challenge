@@ -38,9 +38,13 @@ This milestone demonstrates advanced browser automation capabilities using nativ
 ## Features Implemented
 
 ### 🔗 Level 1 Recap
-- Launches and connects to a Chrome browser with remote debugging enabled
-- `interact` API to process user commands (e.g., open a site, perform a search)
-- `extract` API to scrape structured content from live webpages
+-Implement an interact API that accepts natural language commands to control browser actions
+-Properly handle common error scenarios with clear error messages
+-Successfully demonstrate one complete flow with the interact API:
+-Log into a popular website
+-Perform a search with user-specified keywords
+-Navigate through search results and interact with a specific result item
+
 
 ---
 
