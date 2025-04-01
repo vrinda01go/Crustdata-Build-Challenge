@@ -67,5 +67,9 @@ This milestone demonstrates advanced browser automation capabilities using nativ
 - Validated with mitmproxy log trace
 
 ### 🧩 Extension Test
-- Chrome launched with:
+- Chrome launched with Spotisush
+- Verified in `chrome://extensions/`
+- Extension injects script on matching pages (e.g., `open.spotify.com`)
+- Console logs confirm `content.js` loaded
+
 
