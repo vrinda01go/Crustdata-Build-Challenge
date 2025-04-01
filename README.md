@@ -26,16 +26,16 @@ python flask_api_1.py
  -Method POST `
  -Headers @{ "Content-Type" = "application/json" } `
  -Body '{ "command": "search for artificial intelligence on wikipedia" }'
+```
+# Milestone 2: Advanced Browser Integration
 
-# 🧠 AI Browser Automation — Milestone 2: Advanced Browser Integration
-
-## 📌 Overview
+## Overview
 
 This milestone demonstrates advanced browser automation capabilities using native Chrome integration via the Chrome DevTools Protocol. It builds on Milestone 1 by adding direct control of a locally installed browser, proxy support, browser extension integration, and a fully automated user journey with structured data extraction.
 
 ---
 
-## ✅ Features Implemented
+## Features Implemented
 
 ### 🔗 Level 1 Recap
 - Launches and connects to a Chrome browser with remote debugging enabled
