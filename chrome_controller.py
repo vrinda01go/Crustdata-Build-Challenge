@@ -11,6 +11,21 @@ class ChromeController:
             ws_url = targets[0]["webSocketDebuggerUrl"]  # Get first target
 
         self.ws = create_connection(ws_url)
+    def wait_and_click(self, selector: str, timeout: int = 10):
+        js = f"""
+            (() => {{
+                let tries = 0;
+                const interval = setInterval(() => {{
+                    const el = document.querySelector('{selector}');
+                    if (el) {{
+                        el.click();
+                        clearInterval(interval);
+                    }}
+                    if (++tries > {timeout}) clearInterval(interval);
+                }}, 500);
+            }})()
+        """
+        self.evaluate_js(js)
 
     def navigate_to(self, url):
         self.ws.send(json.dumps({
