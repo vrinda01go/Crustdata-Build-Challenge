@@ -95,7 +95,7 @@ This project implements a local AI agent that automates browser tasks natively�
 
 ## 📁 Project Structure
 
-ai_browser/ ├── automation_task.py # Utility functions for login, search, and proxy verification ├── flask_server.py # Main server for Interact, Extract, and Login APIs ├── launch_chrome.bat # Chrome launchers (normal and proxy modes)
+<pre> ``` ai_browser/ ├── automation_task.py # Utility functions for login, search, and proxy verification ├── flask_server.py # Main server for Interact, Extract, and Login APIs ├── launch_chrome.bat # Chrome launchers (normal and proxy modes) ``` </pre>
 
 ---
 
