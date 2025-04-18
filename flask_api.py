@@ -1,8 +1,8 @@
-# from flask import Flask, request, jsonify
-# from playwright.sync_api import sync_playwright
-# import time
+from flask import Flask, request, jsonify
+from playwright.sync_api import sync_playwright
+import time
 
-# app = Flask(__name__)
+app = Flask(__name__)
 
 # @app.route("/interact", methods=["POST"])
 # def interact():
@@ -54,7 +54,6 @@
 #     app.run(port=8000, debug=True)
 
 ## MILESTONE-1 ENDS ##
-
 from flask import Flask, request, jsonify
 from chrome_controller import ChromeController
 import json
@@ -62,6 +61,13 @@ import time
 
 
 app = Flask(__name__)
+# from main import Flask, request, jsonify
+# from chrome_controller import ChromeController
+# import json
+# import time
+
+
+# app = Flask(__name__)
 
 # @app.route("/interact", methods=["POST"])
 # def interact():
