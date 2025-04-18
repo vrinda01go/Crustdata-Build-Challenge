@@ -76,4 +76,41 @@ This milestone demonstrates advanced browser automation capabilities using nativ
 - Extension injects script on matching pages (e.g., `open.spotify.com`)
 - Console logs confirm `content.js` loaded
 
+# 🧠 Milestone 2: OS-Level AI Browser Automation Agent
+
+This project implements a local AI agent that automates browser tasks natively—without using Selenium, Playwright, or Puppeteer. All interactions are performed via **OS-level APIs** using `pyautogui` and `pygetwindow`.
+
+---
+
+## 🚀 Features Covered
+
+✅ Interact API using natural language  
+✅ Structured data extraction from browser pages  
+✅ Proxy support via Chrome flags  
+✅ Chrome extension integration  
+✅ Native typing, clicking, and navigation  
+✅ Demonstrated login flows and Wikipedia scraping
+
+---
+
+## 📁 Project Structure
+
+ai_browser/ ├── automation_task.py # Utility functions for login, search, and proxy verification ├── flask_server.py # Main server for Interact, Extract, and Login APIs ├── launch_chrome.bat # Chrome launchers (normal and proxy modes)
+
+---
+
+## 🔧 Prerequisites
+
+- **Python** 3.10+ with the following packages:
+
+```bash
+pip install flask pyautogui pygetwindow pyperclip requests
+```
+Google Chrome installed at: C:\Program Files\Google\Chrome\Application\chrome.exe
+Optional Chrome Extension:
+Download and extract any local extension. This project demonstrates with one called spotisush, located at: C:\Users\workstation\Downloads\spotisush
+🧑‍💻 Running the Agent
+1. Activate Python Environment
+   
+
 
