@@ -109,9 +109,23 @@ pip install flask pyautogui pygetwindow pyperclip requests
 Google Chrome installed at: C:\Program Files\Google\Chrome\Application\chrome.exe
 
 Optional Chrome Extension:
+
 Download and extract any local extension. This project demonstrates with one called spotisush, located at: C:\Users\workstation\Downloads\spotisush
-🧑‍💻 Running the Agent
+
+## 🧑‍💻 Running the Agent
 1. Activate Python Environment
+   ```bash
+   cd C:\Users\workstation\ai_browser
+   \venv310\Scripts\activate
+   ```
+2. Launch Chrome: launch_chrome.bat file
+   <pre lang="markdown"> ```bat @echo off start chrome ^ --remote-debugging-port=9222 ^ --remote-allow-origins=* ^ --user-data-dir="C:\Users\workstation\ai_browser\chrome_profile" ^ --load-extension="C:\Users\workstation\Downloads\spotisush" ^ --ignore-certificate-errors ^ --no-first-run ^ --no-default-browser-check ^ --disable-web-security ^ --disable-site-isolation-trials ^ "https://open.spotify.com" ``` </pre>
+
+   ✅ This opens Chrome with the spotisush extension and the required debug flags.
+
+   🌍 Proxy Mode (using MITMProxy or any HTTP proxy)
+   
+
    
 
 
