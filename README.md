@@ -107,6 +107,7 @@ ai_browser/ ├── automation_task.py # Utility functions for login, search, 
 pip install flask pyautogui pygetwindow pyperclip requests
 ```
 Google Chrome installed at: C:\Program Files\Google\Chrome\Application\chrome.exe
+
 Optional Chrome Extension:
 Download and extract any local extension. This project demonstrates with one called spotisush, located at: C:\Users\workstation\Downloads\spotisush
 🧑‍💻 Running the Agent
